@@ -1,5 +1,6 @@
 <?php
-if(!empty($_REQUEST)){echo '&nbsp i &nbsp j &nbsp k <br>';
+if(!empty($_REQUEST)){
+    echo '&nbsp i &nbsp j &nbsp k <br>';
     echo '['.$a1=$_POST['a1'];echo ' &nbsp '.$a2=$_POST['a2'];echo ' &nbsp'.$a3=$_POST['a3'];echo '] <br>';
     echo '['.$b1=$_POST['b1'];echo ' &nbsp '.$b2=$_POST['b2'];echo ' &nbsp'.$b3=$_POST['b3'];echo '] <br>';
 
@@ -12,7 +13,8 @@ if(!empty($_REQUEST)){echo '&nbsp i &nbsp j &nbsp k <br>';
     echo' k('.$a1.'.'.$b2.') -k('.$a2.'.'.$b1.') <br>';
     $f1 = $ui - $ni; $f2 = $uj - $nj; $f3 = $uk - $nk;
 
-    echo 'Resultado = ('.$f1.' '.$f2.' '.$f3.')';}
+    echo 'Resultado = ('.$f1.' '.$f2.' '.$f3.')';
+}
 
 ?>
 <!DOCTYPE html>
